@@ -1,0 +1,33 @@
+body {
+	color: #006666;
+	background: url(https://www.coursehero.com/assets/img/doc-landing/email.svg);
+	background-size: contain;
+}
+
+h1	{
+	color: #FE2E2E;
+	text-transform: capitalize;
+}
+
+#slogan	{
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #e34842;
+	background-color: #FFE30F;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+#hook {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Arial;
+}
