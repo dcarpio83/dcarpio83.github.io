@@ -1,44 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two|VT323);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	color: #000000;
-	background-size: contain;
-	background-color: white;
-	font-family: Arial;
+	color: #222;
+	font-family: arial, helvetica, sans-serif;
 }
-
+header	{
+	background-color: #FFED74;
+	border:	1px black solid;
+	padding: 20px;
+}
+footer	{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
 h1	{
-	color: #FFFFFF;
+	color: #dfdfdf;
 	text-transform: capitalize;
 	background-color: black;
 	font-family: 'VT323', monospace;
 	font-weight: bold;
+}
+a {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Lobster Two', cursive;
+	letter-spacing: 1.5px;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	background-color: white;
+}
+#one	{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #slogan	{
 	font-style: italic;
 	color: #006666;
 	text-transform: uppercase;
-	font-family: Georgia;
+	font-family: Georgia, serif;
 }
 
-a {
-	font-weight: bold;
-	text-decoration: underline;
-	color: #0000FF;
-	font-family: 'Lobster Two', cursive;
-	letter-spacing: 1.5px;
+#two 	{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
-
-ul {
-	text-align: center;
-	list-style-type: none;
-	background-color: white;
-}
-
 .hook {
 	font-style: italic;
 	font-weight: bold;
-	font-family: Arial;
 	background-color: grey;
 }
